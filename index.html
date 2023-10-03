@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cifra de César</h1>
+    <div id="container">
+        <label for="textoOriginal">Texto Original:</label>
+        <textarea id="textoOriginal"></textarea>
+        
+        <label for="chave">Chave:</label>
+        <input type="number" id="chave">
+        
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+        
+        <label for="resultado">Resultado:</label>
+        <textarea id="resultado" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
